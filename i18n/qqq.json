@@ -1,0 +1,8 @@
+{
+  "@metadata": {
+    "authors": [ "Daniel Beard" ]
+  },
+
+  "requiem-skin-name": "{{name}}",
+  "requiem-skin-desc": "{{desc|what=skin|name=Requiem|url=https://www.halopedia.org/Halopedia:Skins/Requiem}}"
+}

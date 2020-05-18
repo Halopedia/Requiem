@@ -1,0 +1,47 @@
+{
+  "name": "Requiem",
+  "author": "Daniel Beard",
+  "url": "https://www.halopedia.org/Halopedia:Skins/Requiem",
+  "license-name": "GPL-2.0-or-later",
+  "type": "skin",
+	"version": "0.0.1",
+
+  "namemsg": "requiem-skin-name",
+  "descriptionmsg": "requiem-skin-desc",
+
+  "ValidSkinNames": {
+    "requiem": "Requiem"
+  },
+
+  "AutoloadClasses": {
+    "SkinRequiem": "includes/SkinRequiem.php",
+    "RequiemTemplate": "includes/RequiemTemplate.php"
+  },
+
+  "MessagesDirs": {
+    "Requiem": "i18n"
+  },
+
+  "ResourceModules": {
+    "skins.requiem.less": {
+      "styles": {
+        "resources/less/requiem-screen.less": { "media": "screen" },
+        "resources/less/requiem-print.less": { "media": "print"}
+      }
+    },
+
+    "skins.requiem.js": {
+      "scripts": [
+        "resources/javascript/requiem.js"
+      ],
+      "position": "top"
+    }
+  },
+
+  "ResourceFileModulePaths": {
+    "localBasePath": "",
+    "remoteSkinPath": "Requiem"
+  },
+
+  "manifest_version": 2
+}

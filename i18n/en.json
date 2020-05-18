@@ -1,0 +1,8 @@
+{
+  "@metadata": {
+    "authors": [ "Daniel Beard" ]
+  },
+
+  "requiem-skin-name": "Requiem",
+  "requiem-skin-desc": "A responsive skin created as part of an effort to modernise Halopedia's frontend interface."
+}
